@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#fff0f6">
+<title>I'm Sorry 💗</title>
+<style>
+:root{--pink:#ff5b9b;--deep:#c62968;--pale:#fff0f6;--ink:#54233b;--soft:#ffe0ec}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:system-ui,-apple-system,"Noto Sans Bengali","Noto Sans",sans-serif;color:var(--ink);background:linear-gradient(145deg,#fff8fb,#ffe7f0 48%,#fff5fa);overflow-x:hidden}
+main{width:min(900px,100%);margin:auto;padding:22px 16px 56px}
+.hero{position:relative;text-align:center;padding:58px 18px 40px;border:1px solid #ffd1e2;border-radius:30px;background:rgba(255,255,255,.76);box-shadow:0 18px 60px #e77ca51c;overflow:hidden}
+.kicker{display:inline-block;border-radius:999px;padding:8px 14px;background:#fff0f6;color:var(--deep);font-size:.86rem;font-weight:700;letter-spacing:.02em}
+h1{font-size:clamp(2.35rem,9vw,5rem);line-height:1.08;margin:20px 0 10px;color:var(--deep);letter-spacing:-.04em}
+.subtitle{max-width:590px;margin:0 auto;color:#7e4a60;line-height:1.8;font-size:1.05rem}
+.heart{font-size:2.2rem;display:inline-block;animation:pulse 1.5s infinite}
+@keyframes pulse{50%{transform:scale(1.17)}}
+.sparkle{position:absolute;opacity:.6;animation:float 5s ease-in-out infinite;pointer-events:none}
+.s1{top:18px;left:8%;font-size:26px}.s2{right:9%;top:44px;font-size:22px;animation-delay:1s}.s3{right:14%;bottom:22px;font-size:25px;animation-delay:2s}.s4{left:12%;bottom:32px;font-size:20px;animation-delay:.5s}
+@keyframes float{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-12px) rotate(8deg)}}
+section{margin-top:22px}
+.card{background:#ffffffc9;border:1px solid #ffd4e4;border-radius:24px;padding:24px;box-shadow:0 12px 36px #d94f8510}
+h2{font-size:1.45rem;margin:0 0 14px;color:var(--deep)}
+.apology{text-align:center;line-height:1.95;font-size:1.1rem}
+.apology .big{font-size:2rem;display:block;margin-bottom:10px}
+.names{font-weight:800;color:var(--deep)}
+.gallery-head{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.upload{border:0;border-radius:999px;background:var(--pink);color:white;font-weight:800;padding:12px 17px;cursor:pointer;font-size:.95rem;box-shadow:0 7px 18px #ff5b9b30}
+.upload:hover,.btn:hover{filter:brightness(.97);transform:translateY(-1px)}
+.hint{font-size:.88rem;color:#91677a;line-height:1.6;margin:6px 0 16px}
+.gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.photo{aspect-ratio:3/4;border-radius:17px;background:linear-gradient(150deg,#fff0f6,#ffd7e7);border:1px dashed #f29abc;display:flex;align-items:center;justify-content:center;overflow:hidden;position:relative;text-align:center;color:#b64d79;padding:10px}
+.photo img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0}
+.photo .placeholder{font-size:.93rem;line-height:1.6}
+.photo .remove{position:absolute;right:7px;top:7px;border:0;border-radius:50%;width:30px;height:30px;background:#fff;color:#a21e55;font-size:18px;cursor:pointer;z-index:2;box-shadow:0 2px 8px #0002}
+.note{text-align:center;font-size:.9rem;color:#95677a;margin:15px 0 0;line-height:1.65}
+.footer{text-align:center;padding:28px 12px 0;color:#95677a;font-size:.9rem;line-height:1.8}
+.btn{border:0;border-radius:999px;background:var(--deep);color:#fff;font-weight:800;padding:14px 22px;cursor:pointer;font-size:1rem;transition:.2s;display:inline-block}
+.actions{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:20px}
+.btn.secondary{background:#fff;color:var(--deep);border:1px solid #ffc3da}
+#message{margin-top:14px;font-size:.9rem;color:#8a4b66;min-height:1.2em}
+@media(max-width:560px){main{padding:12px 11px 38px}.hero{padding:49px 16px 32px;border-radius:24px}.card{padding:18px;border-radius:20px}.gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.photo{border-radius:13px}.subtitle{font-size:1rem}.apology{font-size:1.02rem}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;scroll-behavior:auto!important;transition:none!important}}
+</style>
+</head>
+<body>
+<main>
+  <header class="hero">
+    <span class="sparkle s1">💗</span><span class="sparkle s2">✨</span><span class="sparkle s3">🌸</span><span class="sparkle s4">💕</span>
+    <span class="kicker">A little message from my heart</span>
+    <div class="heart" aria-hidden="true">💖</div>
+    <h1>I'm Really Sorry</h1>
+    <p class="subtitle">কিছু কথা হয়তো তোমাকে কষ্ট দিয়েছে। এই ছোট্ট পেজটা শুধু তোমার কাছে মন থেকে ক্ষমা চাওয়ার জন্য।</p>
+  </header>
+
+  <section class="card apology">
+    <span class="big">🥺💌</span>
+    <h2>একটু শুনবে?</h2>
+    <p><span class="names" id="herName">তোমার জন্য</span>,</p>
+    <p>আমি জানতাম না ও তোমার বান্ধবী। তোমাকে কষ্ট দেওয়া আমার উদ্দেশ্য ছিল না। আমাকে ক্ষমা করে দিও।</p>
+    <p>আমার কথায় তোমার মন খারাপ হয়ে থাকলে আমি সত্যিই দুঃখিত। তোমার অনুভূতিকে আমি গুরুত্ব দিই। তুমি চাইলে সময় নিতে পারো—আমি তোমাকে কোনো চাপ দিতে চাই না।</p>
+    <p>মন থেকে বলছি, <strong>I'm sorry. ❤️‍🩹</strong></p>
+    <p class="names" id="yourName">— তোমার কাছে ক্ষমাপ্রার্থী</p>
+    <div class="actions">
+      <button class="btn" id="heartBtn">একটা ছোট্ট হার্ট 💗</button>
+      <button class="btn secondary" id="editNames">নাম যোগ করো ✍️</button>
+    </div>
+    <div id="message" aria-live="polite"></div>
+  </section>
+
+  <section class="card">
+    <div class="gallery-head">
+      <h2>আমাদের সুন্দর স্মৃতিগুলো 🌷</h2>
+      <label class="upload" for="photoInput">＋ ছবি যোগ করো</label>
+      <input id="photoInput" type="file" accept="image/*" multiple hidden>
+    </div>
+    <p class="hint">এখানে নিজের পছন্দের ছবি বেছে নাও। ছবি এই ব্রাউজারেই দেখা যাবে; পেজ রিফ্রেশ করলে আবার যোগ করতে হতে পারে।</p>
+    <div class="gallery" id="gallery">
+      <div class="photo"><span class="placeholder">📷<br>প্রথম ছবির জায়গা</span></div>
+      <div class="photo"><span class="placeholder">🌸<br>আরেকটি স্মৃতি</span></div>
+      <div class="photo"><span class="placeholder">💞<br>প্রিয় মুহূর্ত</span></div>
+    </div>
+    <p class="note">ছবি শেয়ার করার আগে তার অনুমতি ও গোপনীয়তার কথা ভেবে নিও। 💗</p>
+  </section>
+  <footer class="footer">তাড়াহুড়ো নেই, কোনো চাপ নেই—শুধু একটা আন্তরিক Sorry. <br>Made with care 💗</footer>
+</main>
+<script>
+const input = document.getElementById('photoInput');
+const gallery = document.getElementById('gallery');
+input.addEventListener('change', () => {
+  [...input.files].forEach(file => {
+    if (!file.type.startsWith('image/')) return;
+    const url = URL.createObjectURL(file);
+    const tile = document.createElement('div');
+    tile.className = 'photo';
+    const img = document.createElement('img');
+    img.src = url; img.alt = 'নির্বাচিত ছবি';
+    const remove = document.createElement('button');
+    remove.className = 'remove'; remove.type = 'button'; remove.setAttribute('aria-label','ছবি সরাও'); remove.textContent = '×';
+    remove.addEventListener('click', () => { URL.revokeObjectURL(url); tile.remove(); });
+    tile.append(img, remove); gallery.prepend(tile);
+  });
+  input.value = '';
+});
+document.getElementById('heartBtn').addEventListener('click', () => {
+  const m = document.getElementById('message');
+  m.textContent = 'তোমার জন্য একটা ছোট্ট হার্ট—💗  তুমি যখন প্রস্তুত, তখনই কথা বলো।';
+});
+document.getElementById('editNames').addEventListener('click', () => {
+  const her = prompt('ওর নাম বা ডাকনাম লিখো (খালি রাখলে আগেরটাই থাকবে):');
+  if (her && her.trim()) document.getElementById('herName').textContent = her.trim();
+  const yours = prompt('তোমার নাম বা ডাকনাম লিখো (খালি রাখলে আগেরটাই থাকবে):');
+  if (yours && yours.trim()) document.getElementById('yourName').textContent = '— ' + yours.trim();
+});
+</script>
+</body>
+</html>
